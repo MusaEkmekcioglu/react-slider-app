@@ -14,9 +14,11 @@ function App() {
     index === people.length - 1 ? setIndex(0) : setIndex(index + 1)
   }
   // useEffect(() => {
-  //   setInterval(() => {
+  //   let slider= setInterval(() => {
   //     getNext()
   //   }, 3000)
+  
+  //    return()=> clearInterval(slider)
   // }, [index])
   return (
     <div className="section-center">
